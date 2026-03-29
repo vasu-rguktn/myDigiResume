@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vasu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg portfolio-nav sticky-top">
+        <div class="container py-2">
+            <a class="navbar-brand brand-mark" href="#home">vn.</a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="portfolioNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item mt-3 mt-lg-0 ms-lg-2">
+                        <a class="btn btn-highlight" href="#contact">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <canvas class="hero-particles" id="heroParticles" aria-hidden="true"></canvas>
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7">
+                        <span class="eyebrow">Full-Stack Developer | Problem Solver | Creator</span>
+                        <h1 class="hero-title mt-3">
+                            Hi, I'm <span>vasu</span>.<br>
+                            <span class="hero-title-static">I build</span>
+                            <span class="hero-title-dynamic" id="heroTypewriter" data-words="modern web experiences., cinematic digital products., responsive interfaces., thoughtful user journeys."></span>
+                        </h1>
+                        <p class="hero-text mt-4">
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a class="btn btn-highlight btn-lg" href="#projects">View Projects</a>
+                            <a class="btn btn-outline-light btn-lg" href="#contact">Let's Talk</a>
+                        </div>
+                        <div class="hero-stats row g-3 mt-4">
+                            <div class="col-sm-4">
+                                <div class="stat-card">
+                                    <h3>4+</h3>
+                                    <p>Years of building products</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="stat-card">
+                                    <h3>6+</h3>
+                                    <p>Projects launched successfully</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="stat-card">
+                                    <h3>8+</h3>
+                                    <p>Core technologies mastered</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="hero-panel">
+                            <div class="hero-avatar-pop">
+                                <img src="assets/vnp.png" alt="Vasu avatar" class="hero-avatar-image">
+                            </div>
+                            <div class="code-window">
+                                <div class="window-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="code-content">
+                                    <p>&lt;developer&gt;</p>
+                                    <p class="code-indent">name: "vasu"</p>
+                                    <p class="code-indent">location: "I am on the Creative Planet"</p>
+                                    <p class="code-indent">role: "Frontend / Full-Stack Developer"</p>
+                                    <p class="code-indent">focus: "Responsive UI, APIs, performance"</p>
+                                    <p class="code-indent">status: "Open for opportunities"</p>
+                                    <p>&lt;/developer&gt;</p>
+                                </div>
+                            </div>
+                            <div class="floating-card">
+                                <p class="mb-1">Currently building</p>
+                                <h5>Production Level products with thoughtful UX</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-space">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="profile-card">
+                            <div class="profile-photo">vn</div>
+                            <div>
+                                <p class="section-kicker">About Me</p>
+                                <h2 class="section-title">A developer creates cool digital stuff.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <p class="section-copy">
+                           Passionate about film making , Pursuing Technology , Experimenting thoughts , Experiencing Outcomes.
+                        </p>
+                        <div class="row g-3 mt-2">
+                            <div class="col-md-6">
+                                <div class="info-tile">
+                                    <h5>Education</h5>
+                                    <p> Masters in CSE - JNTUK University</p>
+                                    <p>Bachelor's in CSE - St.Mary's Group of Institutions Guntur</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-tile">
+                                    <h5>Location</h5>
+                                    <p>Kakinada , Andhra Pradesh</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-tile">
+                                    <h5>Email</h5>
+                                    <p>vasuch9959@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-tile">
+                                    <h5>Freelance</h5>
+                                    <p>Available for selected projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-space alt-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="section-kicker">Skills</p>
+                    <h2 class="section-title">Technologies I use.</h2>
+                </div>
+                <div class="row g-4 align-items-stretch mt-3">
+                    <div class="col-lg-4">
+                        <div class="stack-intro-card h-100">
+                            <p class="stack-kicker">Core Stack</p>
+                            <h3>From web interfaces to AI-assisted workflows.</h3>
+                            <p>
+                                I work across frontend, backend, cloud, analytics, design, and AI tooling. This mix helps me move from idea to shipped product with faster iteration and cleaner execution.
+                            </p>
+                            <div class="stack-tags">
+                                <span>Frontend Systems</span>
+                                <span>Cloud & Data</span>
+                                <span>AI Workflows</span>
+                                <span>Design to Build</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="stack-showcase">
+                            <div class="stack-cluster stack-cluster-wide">
+                                <div class="stack-cluster-head">
+                                    <p>Web & App</p>
+                                    <span>Interface engineering</span>
+                                </div>
+                                <div class="logo-chip-grid">
+                                    <a class="logo-chip accent-orange" href="https://www.python.org/" target="_blank" rel="noreferrer">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo">
+                                        <span>Python</span>
+                                    </a>
+                                    <a class="logo-chip accent-blue" href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noreferrer">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Web logo">
+                                        <span>Web</span>
+                                    </a>
+                                    <a class="logo-chip accent-cyan" href="https://react.dev/" target="_blank" rel="noreferrer">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React logo">
+                                        <span>React</span>
+                                    </a>
+                                    <a class="logo-chip accent-amber" href="https://www.figma.com/" target="_blank" rel="noreferrer">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma logo">
+                                        <span>Figma</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="stack-cluster-row">
+                                <div class="stack-cluster">
+                                    <div class="stack-cluster-head">
+                                        <p>Data</p>
+                                        <span>Storage & analytics</span>
+                                    </div>
+                                    <div class="logo-chip-grid compact">
+                                        <a class="logo-chip accent-gold" href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo">
+                                            <span>SQL</span>
+                                        </a>
+                                        <a class="logo-chip accent-green" href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB logo">
+                                            <span>MongoDB</span>
+                                        </a>
+                                        <a class="logo-chip accent-yellow" href="https://firebase.google.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase logo">
+                                            <span>Firebase</span>
+                                        </a>
+                                        <a class="logo-chip accent-gold" href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://1000logos.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo-2013.png" alt="Power BI logo">
+                                            <span>Power BI</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stack-cluster">
+                                    <div class="stack-cluster-head">
+                                        <p>Versioning</p>
+                                        <span>Delivery workflows</span>
+                                    </div>
+                                    <div class="logo-chip-grid compact">
+                                        <a class="logo-chip accent-red" href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo">
+                                            <span>Git</span>
+                                        </a>
+                                        <a class="logo-chip accent-orange" href="https://about.gitlab.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab logo">
+                                            <span>GitLab</span>
+                                        </a>
+                                        <a class="logo-chip accent-sky" href="https://bitbucket.org/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.simpleicons.org/bitbucket/0052CC" alt="Bitbucket logo">
+                                            <span>Bitbucket</span>
+                                        </a>
+                                        <a class="logo-chip accent-white" href="https://fossil-scm.org/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.simpleicons.org/fossilscm/FFFFFF" alt="Fossil SCM logo">
+                                            <span>Fossil SCM</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stack-cluster-row">
+                                <div class="stack-cluster">
+                                    <div class="stack-cluster-head">
+                                        <p>Cloud</p>
+                                        <span>Infrastructure & services</span>
+                                    </div>
+                                    <div class="logo-chip-grid compact">
+                                        <a class="logo-chip accent-sky" href="https://azure.microsoft.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure logo">
+                                            <span>Azure</span>
+                                        </a>
+                                        <a class="logo-chip accent-gold" href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png" alt="AWS logo">
+                                            <span>AWS</span>
+                                        </a>
+                                        <a class="logo-chip accent-cyan" href="https://console.cloud.google.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.simpleicons.org/googlecloud/4285F4" alt="Google Cloud logo">
+                                            <span>Google Cloud</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="stack-cluster">
+                                    <div class="stack-cluster-head">
+                                        <p>AI Tools & Automation</p>
+                                        <span>Prompting, coding, and workflow partners</span>
+                                    </div>
+                                    <div class="logo-chip-grid compact">
+                                        <a class="logo-chip accent-white" href="https://claude.ai/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.simpleicons.org/anthropic/D4A373" alt="Claude logo">
+                                            <span>Claude</span>
+                                        </a>
+                                        <a class="logo-chip accent-white" href="https://chat.openai.com/" target="_blank" rel="noreferrer">
+                                            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/openai-wx0xqojo8lrv572wcvlcb.png/openai-twkvg10vdyltj9fklcgusg.png?_a=DATAiZAAZAA0" alt="ChatGPT logo">
+                                            <span>ChatGPT</span>
+                                        </a>
+                                        <a class="logo-chip accent-white" href="https://openai.com/codex/" target="_blank" rel="noreferrer">
+                                            <img src="https://conserto.pro/wp-content/uploads/2022/11/microsoftteams-image-56.png" alt="Codex logo">
+                                            <span>Codex</span>
+                                        </a>
+                                        <a class="logo-chip accent-white" href="https://n8n.io/" target="_blank" rel="noreferrer">
+                                            <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n logo">
+                                            <span>n8n</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-space">
+            <div class="container">
+                <div class="section-heading d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3">
+                    <div>
+                        <p class="section-kicker">Projects</p>
+                        <h2 class="section-title">My Featured work</h2>
+                    </div>
+                    <a href="https://github.com/vasu-rguktn" class="text-link">Have a glance at my GitHub</a>
+                </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-lg-4">
+                        <article class="project-card">
+                            <span class="project-tag">Web App</span>
+                            <h4>E-Commerce Platform</h4>
+                            <p>E-Commerece platform designed for a rural audience..</p>
+                            <div class="project-stack">React | Node.js | MongoDB</div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="project-card">
+                            <span class="project-tag">Dashboard</span>
+                            <h4>Admin Analytics Panel</h4>
+                            <p>Highlight metrics, responsive design, API integration, or user workflows.</p>
+                            <div class="project-stack">Bootstrap | Chart.js | REST API</div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4">
+                        <article class="project-card">
+                            <span class="project-tag">Portfolio</span>
+                            <h4>Creative Personal Website</h4>
+                            <p>Visual Design looks like Digi Resume.</p>
+                            <div class="project-stack">HTML | CSS | JavaScript</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-space alt-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="section-kicker">Experience</p>
+                    <h2 class="section-title">Timeline of my learning and professional journey</h2>
+                </div>
+                <div class="timeline mt-5">
+                    <div class="timeline-item">
+                        <span class="timeline-year">2022</span>
+                        <div>
+                            <h5>Graduate Intern SDE</h5>
+                            <p>Intel | Worked on responsive interfaces,Data ANalytics (Power BI), Time-series Modeling (Data Robot).</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">2021</span>
+                        <div>
+                            <h5>Cloud Infra Services Engineer   </h5>
+                            <p>Capgemini | Networking.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">2018</span>
+                        <div>
+                            <h5>Started Full-Stack Development| Freelancer (Wordpress)</h5>
+                            <p>Built CMS Website for Canada Client.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section-space">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="section-kicker">Services</p>
+                    <h2 class="section-title">Ways I can help teams, startups, and personal brands</h2>
+                </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h4>Website Development</h4>
+                            <p>Business sites, landing pages, and responsive websites built for speed and clarity.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h4>UI Implementation</h4>
+                            <p>Turning Figma or design ideas into polished interfaces using clean frontend code.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h4>Portfolio Creation</h4>
+                            <p>Custom portfolio websites for students, developers, creators, and freelancers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section-space alt-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <p class="section-kicker">Testimonials</p>
+                    <h2 class="section-title">What clients or teammates can say about your work</h2>
+                </div>
+                <div class="row g-4 mt-2">
+                    <div class="col-lg-6">
+                        <div class="testimonial-card">
+                            <p>"Best Work with efficient communication and timely delivery."</p>
+                            <h6>Joshua Charles</h6>
+                            <span>CEO , Angeline Consulting INC</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial-card">
+                            <p>"Great guy for Graphic Designing."</p>
+                            <h6>Krish</h6>
+                            <span>Co-Founder  / Angeline Consulting INC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-space">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-6">
+                            <p class="section-kicker">Contact</p>
+                            <h2 class="section-title">Let's build something strong together.</h2>
+                            <p class="section-copy mb-0">
+                                Update this section with your real email, LinkedIn, GitHub, phone number, or contact form action.
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact-grid">
+                                <div class="info-tile">
+                                    <h5>Email</h5>
+                                    <p>vasuch9959@gmail.com</p>
+                                </div>
+                                <div class="info-tile">
+                                    <h5>LinkedIn</h5>
+                                    <p>linkedin.com/in/vasu-neninthe</p>
+                                </div>
+                                <div class="info-tile">
+                                    <h5>GitHub</h5>
+                                    <p>github.com/vasu-rguktn</p>
+                                </div>
+                                <div class="info-tile">
+                                    <h5>Phone</h5>
+                                    <p>+91 995 955 2795</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="portfolio-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <p class="mb-0">Copyright 2026 vasu. All rights reserved.</p>
+            <div class="footer-links d-flex gap-3">
+                <a href="https://github.com/vasu-rguktn" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/vasu-neninthe" target="_blank">LinkedIn</a>
+                <a href="resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
