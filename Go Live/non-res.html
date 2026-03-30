@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Non-Responsive Layout</title>
+<!-- 
+  <style>
+    .container {
+      width: 900px;
+      margin: auto;
+    }
+    .box {
+      width: 300px;
+      float: left;
+      background: lightblue;
+      border: 1px solid black;
+      text-align: center;
+      padding: 20px;
+    }
+  </style> -->
+  <style>
+     
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background: lightblue;
+      border: 1px solid black;
+      text-align: center;
+      padding: 20px;
+     width: 100%;
+    }
+      /* Default: Mobile (full width)
+     
+
+    /* Tablet View */
+    @media (min-width: 768px) {
+      .box {
+        width: 50%;
+      }
+    } */
+
+    /* Desktop View */
+    @media (min-width: 992px) {
+      .box {
+        width: 33.33%;
+      }
+    }
+  
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="box">Column 1</div>
+  <div class="box">Column 2</div>
+  <div class="box">Column 3</div>
+</div>
+
+</body>
+</html>

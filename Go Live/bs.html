@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      .toast-container {
+        z-index: 1080;
+      }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ <h2> page sin Bs</h2>
+ <h1 class="text-primary"> Hola Bs..!</h1>
+
+<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-2 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active rounded-2" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-2" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-2" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-2" id="subscribe-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Subscribe</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link rounded-2" id="login-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Login</button>
+  </li>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Settings
+    </button>
+    <ul class="dropdown-menu">
+      <li><button class="dropdown-item" type="button">Profile</button></li>
+      <li><button class="dropdown-item" type="button">Upload Picture</button></li>
+      <li><button class="dropdown-item" type="button">Logout</button></li>
+    </ul>
+    <button type="button" class="btn btn-primary position-relative">
+      Inbox
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button>
+  </div>
+</ul>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/fbb3db1956a0a1d3f034ce41158701cf.DSC06559-2.jpg?itok=JgXvh44Z" class="d-block w-100" alt="Mt Merapi">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/bb9a26e937c95bde04aa89fe5fe7da0c.20240522-_U3A6022.jpg?itok=Sak7TQv4" class="d-block w-100" alt="Monteplecanio , Italy">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/99cacaf4a4ffcf25490dc21f43a38592._66A6586.jpg?itok=0qH6p_zD" class="d-block w-100" alt="tail of chameleon">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="container my-4">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/fbb3db1956a0a1d3f034ce41158701cf.DSC06559-2.jpg?itok=JgXvh44Z" class="card-img-top" alt="Mt Merapi">
+        <div class="card-body">
+          <h5 class="card-title">Mt Merapi</h5>
+          <p class="card-text">First Pic belongs to Mt Merapi.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pic 1</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/bb9a26e937c95bde04aa89fe5fe7da0c.20240522-_U3A6022.jpg?itok=Sak7TQv4" class="card-img-top" alt="Monteplecanio, Italy">
+        <div class="card-body">
+          <h5 class="card-title">Montepulciano</h5>
+          <p class="card-text">Second Pic belongs to Montepulciano, Italy.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pic 2</li>
+          <li class="list-group-item">Travel</li>
+          <li class="list-group-item">Landscape</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/99cacaf4a4ffcf25490dc21f43a38592._66A6586.jpg?itok=0qH6p_zD" class="card-img-top" alt="Tail of chameleon">
+        <div class="card-body">
+          <h5 class="card-title">Chameleon Detail</h5>
+          <p class="card-text">Third Pic captures the colorful tail of a chameleon.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pic 3</li>
+          <li class="list-group-item">Nature</li>
+          <li class="list-group-item">Close-up</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- offcanvas -->
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"> Let'see this Offcanvas</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+
+<div class="container my-4">
+  <div class="d-flex flex-wrap gap-3 align-items-center">
+    <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Popover title" data-bs-content="This popover is fixed to the top.">
+      Popover on top
+    </button>
+
+    <button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+      Popover on bottom
+    </button>
+
+    <button type="button" class="btn btn-warning" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+      Popover on left
+    </button>
+
+    <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+      Popover on right
+    </button>
+  </div>
+</div>
+
+<hr>
+
+<div class="container my-4">
+  <button type="button" class="btn btn-dark" id="showToastBtn">Show toast</button>
+</div>
+
+<div class="toast-container position-fixed top-0 end-0 p-3">
+  <div class="toast" id="liveToast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="https://www.worldphoto.org/sites/default/files/styles/max_2600x2600/public/5f550dc4915a189a9410e281f070b137.5ET09217-1a-1s.jpg?itok=FvP-RTgW" class="rounded me-2" alt="toast icon" width="20" height="20">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      <p class="mb-0">Hello, world! This is a toast message.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+[...popoverTriggerList].forEach((popoverTriggerEl) => {
+  new bootstrap.Popover(popoverTriggerEl);
+});
+
+const toastTrigger = document.getElementById('showToastBtn');
+const toastElement = document.getElementById('liveToast');
+
+if (toastTrigger && toastElement) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastElement);
+
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show();
+  });
+}
+</script>
+
+
+<br>
+
+
+</body>
+</html>
